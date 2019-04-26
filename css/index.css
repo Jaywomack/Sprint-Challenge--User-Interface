@@ -292,3 +292,46 @@ footer nav a {
 .box10 {
     background-color: dodgerblue
 }
+
+/* About page styles */
+
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+
+
+}
+
+.card {
+    width: 46%;
+    margin: 15px;
+}
+
+hr {
+    border: 1px dashed black;
+    width: 100%;
+}
+
+.lets-work {
+    margin: 15px;
+}
+
+.lets-work-p {
+    margin: 40px 15px;
+}
+
+.about-paragraph-section {
+    margin: 20px;
+    
+}
+
+button {
+    background-color: white;
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 20%;
+
+}

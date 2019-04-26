@@ -126,6 +126,7 @@ nav {
 
 nav a {
     color: black;
+    text-decoration: none;
 }
 
 ol,
@@ -320,12 +321,13 @@ hr {
 }
 
 .lets-work-p {
-    margin: 40px 15px;
+    margin: 15px 15px;
+    margin-bottom: 40px;
 }
 
 .about-paragraph-section {
     margin: 20px;
-    
+
 }
 
 button {
@@ -333,5 +335,11 @@ button {
     padding: 5px 15px;
     border: 2px solid black;
     border-radius: 20%;
+    margin-top: 10px;
+    margin-bottom: 5px;
 
+}
+
+.card h3 {
+    margin-top: 10px;
 }

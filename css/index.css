@@ -3,60 +3,170 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+nav {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
 }
-blockquote, q {
-	quotes: none;
+
+.header-image {
+    margin-bottom: 30px;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+nav a {
+    color: black;
+    text-decoration: none;
 }
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -82,7 +192,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,7 +214,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +252,143 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box1 {
+    background-color: teal
+}
+
+.box2 {
+    background: gold
+}
+
+.box3 {
+    background-color: cadetblue
+}
+
+.box4 {
+    background-color: coral
+}
+
+.box5 {
+    background-color: crimson
+}
+
+.box6 {
+    background-color: forestgreen
+}
+
+.box7 {
+    background-color: darkorchid
+}
+
+.box8 {
+    background-color: hotpink
+}
+
+.box9 {
+    background-color: indigo
+}
+
+.box10 {
+    background-color: dodgerblue
+}
+
+/* About page styles */
+
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+
+
+}
+
+.card {
+    width: 46%;
+    margin: 15px;
+}
+
+hr {
+    border: 1px dashed black;
+    width: 100%;
+}
+
+.lets-work {
+    margin: 15px;
+}
+
+.lets-work-p {
+    margin: 15px 15px;
+    margin-bottom: 40px;
+}
+
+.about-paragraph-section {
+    margin: 20px;
+
+}
+
+button {
+    background-color: white;
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 20%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+/* Products page */
+.products-header-img {
+    width: 100%;
+}
+
+.products-header-img img {
+    width: 100%;
+    height: 200px;
+}
+
+#projects {
+    text-align: center;
+    font-size: 40px;
+}
+
+.projects-container {
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-around;
+}
+
+.h2-products {
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+
+.about-products {
+    font-size: 18px;
+}
+
+.product-managers {
+    display: flex;
+}
+
+.card {
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: white;
 }
